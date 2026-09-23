@@ -114,7 +114,7 @@
 /datum/repeatable_crafting_recipe/leather/storage/orebag
 	name = "miner's satchel"
 	requirements = list(
-		/obj/item/natural/hide/cured= 3,
+		/obj/item/natural/hide/cured= 1,
 		/obj/item/rope = 1,
 	)
 	output = /obj/item/storage/hip/orebag
@@ -127,20 +127,20 @@
 	name = "knife sheath"
 	output = /obj/item/weapon/scabbard/knife
 	requirements = list(
-		/obj/item/natural/hide/cured = 2,
+		/obj/item/natural/hide/cured = 1,
 		/obj/item/grown/log/tree/stick = 2,
 	)
-	craftdiff = 2
+	craftdiff = 1
 
 /datum/repeatable_crafting_recipe/leather/storage/sword_scabbard
 	name = "scabbard"
 	output = /obj/item/weapon/scabbard/sword
 	requirements = list(
-		/obj/item/natural/hide/cured = 2,
+		/obj/item/natural/hide/cured = 1,
 		/obj/item/grown/log/tree/small = 1,
 		/obj/item/rope = 1,
 	)
-	craftdiff = 2
+	craftdiff = 1
 
 /// Misc Leatherworking
 /datum/repeatable_crafting_recipe/leather/bedsheetpelt
@@ -265,7 +265,7 @@
 /datum/repeatable_crafting_recipe/leather/gloves/duelist_gloves
 	name = "dueslist gloves"
 	requirements = list(
-		/obj/item/natural/hide/cured = 3,
+		/obj/item/natural/hide/cured = 2,
 		/obj/item/natural/fibers = 1
 	)
 	output = /obj/item/clothing/gloves/leather/duelgloves
@@ -273,7 +273,7 @@
 /datum/repeatable_crafting_recipe/leather/gloves/fencergloves
 	name = "fencing gloves"
 	requirements = list(
-		/obj/item/natural/hide/cured = 3,
+		/obj/item/natural/hide/cured = 2,
 		/obj/item/natural/fibers = 1
 	)
 	output = /obj/item/clothing/gloves/leather/fencer
